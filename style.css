@@ -1,0 +1,487 @@
+@font-face {font-family: "URW Geometric"; src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot"); src: url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.woff") format("woff"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5bf04c97279e55318d67c21101cfd898.svg#URW Geometric") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: #555;
+}
+a{
+    text-decoration: none;
+    color:#555;    
+}
+
+a:hover{
+    text-decoration: none;
+    color:#f15e2c;
+}
+
+.row-custom{
+    width: 100%;
+}
+
+.header{
+    width: 100%;   
+}
+
+.navbar-top{
+    height: 30px; 
+    background-color: #303030;
+    width: 100%;   
+}
+
+.menu{
+    margin:0 30px 0 0;
+    padding: 0;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 30px 0 0 ;   
+}
+
+.menu li a{
+    font-family: "NunitoSanRegular";
+    font-size: 13px;
+    /* font-weight: 600; */
+    color: #fff;
+}
+
+.menu li a:hover{    
+    color: #f15e2c;
+}
+
+.menu li a i{
+    margin-right: 8px;
+}
+
+.navbar-middle-container{
+    display: flex;
+    justify-content: space-between;    
+    width: 80%;
+    height: 100%;
+    margin:auto;    
+}
+
+.navbar-middle{
+    display: inline-block;
+    margin-top: 1em;
+    width: 100%;
+    height: 100px;    
+}
+
+.navbar-middle-content-cover{
+    display: flex;
+    align-items: flex-end;
+}
+
+.navbar-middle-content{        
+    display: inline-block;       
+}
+
+.navbar-middle-content li{
+    display: inline-block;
+    padding: 10px 30px;    
+}
+
+.navbar-middle-content .line{
+    border-right: #e3e2e2 2px solid;
+    padding: 10px 0px;
+}
+
+.navbar-middle-content li a{
+    font-family: "URW Geometric";
+    color: #000;    
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-middle-content li a:hover{    
+    color: #f15e2c;
+}
+
+.search-box{
+    display: flex;
+    align-items: flex-end;
+}
+
+.box{
+    border: #EDEDED 2px solid;    
+    height: 35px;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.box > i {
+    margin: 0px 10px;
+    color:gray
+}
+
+.box > input{
+    border:none;
+}
+
+.box > input:focus{
+    outline: none;    
+}
+
+.slide-title-news{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #F1F1F1;
+}
+
+.slide-title-news > a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.banner img{
+    width:100%;
+    height: auto;    
+}
+
+.collection{        
+    margin:auto;
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-collection{    
+    margin-top: 2em;        
+    height: 450px;    
+}
+
+.img-collection > img{
+    width: 100%;
+    height: 300px;
+}
+
+.title-collection{
+    color: #000;
+    margin-top: 1em;    
+}
+
+.title-collection > a{
+    color: #000;
+    font-family: 'Nunito Sans', sans-serif;    
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.categories{    
+    width: 100%;
+    /* margin: auto; */
+}
+
+.categories .all-card-categories{
+    width: 100%;
+}
+
+.card-categories{
+    position: relative;    
+}
+
+.black-bg{    
+    background-color:rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+}
+
+.img-categories > img{
+    width: 100%;
+}
+
+.list-item-categories{
+    margin-top: 2em;    
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6em;
+    list-style: none;
+}
+
+.list-item-categories a{
+    color: #fff;
+    font-weight: bold;    
+}
+
+.list-item-categories a:hover{
+    color: #f15e2c;
+}
+
+.list-item-categories li:first-child{        
+    font-size: 23px;
+    line-height: 3em;
+}
+
+.best-seller{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    margin-top: 3em;    
+}
+
+.list-products{    
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-product{
+    display: inline-block;
+    width: 23%;
+    height: 390px;
+    text-align: center;
+}
+
+.card-product .img-product > img {
+    width: 100%;
+}
+
+.pre-arrow-custom{       
+    border: none;
+    width: 20px;
+    background: url(./image/back.svg) center center no-repeat;
+}
+
+.next-arrow-custom{
+    border: none;
+    width: 20px;
+    background: url(./image/next.svg) center center no-repeat;
+}
+
+.bold-text{
+    color: #000;
+    font-weight: bold;
+}
+
+.bottom-banner > img{
+    width: 100%;
+}
+
+.ins-news-area{    
+    width: 100%;
+    margin:auto;
+    margin-top: 3em;
+    height: 700px;
+    display: flex;    
+    justify-content: space-between;    
+} 
+
+.ins-side,.news-side{    
+    width: 50%;  
+    height: auto;  
+}
+
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-gallery > img{
+    margin: 5px;
+    width:  30%;
+    height: 170px;
+}
+
+.gallery-news{
+    display: flex;
+    flex-wrap: wrap;    
+    /* justify-content: space-evenly; */
+    /* background-color: lightslategray; */
+}
+
+.card-news{
+    width:45%;
+    margin-top:5px;
+    margin-left: 20px;
+    /* background: lightsalmon; */
+    height: 350px;    
+    color:#000;    
+}
+
+.card-news > img{
+    width:100%;
+    height: auto;
+}
+
+.title-news > a{
+    font-family: "URW Geometric";
+    color:#000;
+    font-size: 20px;
+}
+.description{
+    text-overflow: ellipsis;   
+    overflow: hidden;
+    max-height: 6em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3.5;
+    -webkit-box-orient: vertical;
+}
+
+.description > p{
+    font-size: 16px;        
+}
+
+.read-more{    
+    color:#f15e2c;
+    font-style: italic;
+}
+
+.button-readmore{
+    margin-top: 6em;
+    text-align: center;
+}
+
+.button-readmore > input{
+    padding:20px 30px;
+    background-color: #303030;
+    border: none;
+    color: #fff;    
+    font-weight: bold;
+}
+
+.button-readmore > input:hover{
+    background-color: #555;
+}
+.footer{    
+    display: block;
+    margin-top: 2em;
+    width: 100%;
+    height: 500px;
+    background: #4C4C4C;    
+}
+
+.logo-side{        
+    height: auto;
+}
+
+.footer-content{
+    width: 96%;
+    margin:auto;
+    padding: 40px 0 ;   
+    display: flex;
+    justify-content: center; 
+}
+
+.find-store{
+    margin-top:2em;
+    width:100%;
+    border:none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f15e2c;
+    color: #fff;
+    padding: 1em 2em;
+}
+
+.find-store:focus{
+    outline: none;    
+}
+
+.find-store:hover{    
+    background-color: lightgray;
+    color:#000;
+}
+
+.info-side{    
+    margin-top: 0px;    
+    /* width:76%; */
+    height: auto;
+}
+
+.product-menu{
+    /* width: 18%; */
+}
+
+.info-top{
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.list-footer{                
+    list-style: none;     
+    padding-inline-start: 0px;  
+}
+
+.list-footer > li{           
+    line-height: 1.7em;
+}
+
+.list-footer li a{
+    color: #cccccc;
+    text-transform: capitalize;
+}   
+
+.list-footer li:first-child a{
+    color:#fff;
+    font-size:23px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2.7em;
+}  
+.list-footer li:not(:first-child) a:hover{
+    color: #f15e2c;
+} 
+
+.info-middle{    
+    /* width: 100%; */
+    /* height: 200px; */
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.title-info {
+    font-family: URW Geometric;
+    color:#fff;
+    font-size:23px;
+    text-transform: uppercase;
+    font-weight: 600;    
+}
+
+.social a > i{
+    color: #808080;
+    font-size: 40px;
+}
+
+.form-submit > input{
+    height: 40px;
+    width: 70%;
+}
+.submit-button{
+    margin: 0px;    
+    display: inline-block;
+    height: 40px;
+    width: 25%;
+    border: none;
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+.logo-footer > img{
+    margin-top: 0.5em;
+}
+
+.copyright {
+    color: #808080;
+    text-align: center;
+}
